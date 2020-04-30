@@ -11,7 +11,6 @@ public class login {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
 		
-		
 	}
 
 }
