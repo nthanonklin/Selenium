@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="35" started-at="2020-05-01T22:04:46 PDT" finished-at="2020-05-01T22:04:46 PDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="35" started-at="2020-05-01T22:04:46 PDT" finished-at="2020-05-01T22:04:46 PDT">
+      <class name="com.testng.parallel.ParallelMethodTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testng.parallel.ParallelMethodTest@71d15f18]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2020-05-01T22:04:46 PDT" finished-at="2020-05-01T22:04:46 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:com.testng.parallel.ParallelMethodTest@71d15f18]" name="testMethodOne" duration-ms="4" started-at="2020-05-01T22:04:46 PDT" finished-at="2020-05-01T22:04:46 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodOne -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testng.parallel.ParallelMethodTest@71d15f18]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-05-01T22:04:46 PDT" finished-at="2020-05-01T22:04:46 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testng.parallel.ParallelMethodTest@71d15f18]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-05-01T22:04:46 PDT" finished-at="2020-05-01T22:04:46 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMethodTwo()[pri:0, instance:com.testng.parallel.ParallelMethodTest@71d15f18]" name="testMethodTwo" duration-ms="1" started-at="2020-05-01T22:04:46 PDT" finished-at="2020-05-01T22:04:46 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodTwo -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testng.parallel.ParallelMethodTest@71d15f18]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-05-01T22:04:46 PDT" finished-at="2020-05-01T22:04:46 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.testng.parallel.ParallelMethodTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

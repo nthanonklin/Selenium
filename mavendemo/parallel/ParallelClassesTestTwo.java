@@ -1,0 +1,39 @@
+package com.testng.parallel;
+
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
+
+
+public class ParallelClassesTestTwo  {
+  
+  @BeforeClass
+  public void beforeClass() {
+	  long id = Thread.currentThread().getId();
+	  System.out.println("before test-class. Thread id is " + id);
+  }
+  
+  @Test
+  public void testMethodOne() {
+	  long id = Thread.currentThread().getId();
+	  System.out.println("Sample test-method One. Thread id is " + id);
+	  
+  }
+  
+  @Test
+  public void testMethodTwo() {
+	  long id = Thread.currentThread().getId();
+	  System.out.println("Sample test-method Two. Thread id is " + id);
+	  
+  }
+
+  @AfterClass
+  public void afterClass() {
+	  long id = Thread.currentThread().getId();
+	  System.out.println("After test-class. Thread id is " + id);
+  }
+
+}
