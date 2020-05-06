@@ -1,0 +1,254 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 17,
+        "name": "validate the login functionality",
+        "description": "",
+        "id": "petco-website;validate-the-login-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3209340247,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch the browser and enter the url",
+            "match": {
+              "location": "LoginSteps.launch_the_browser_and_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24925104,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Petco page is opened",
+            "match": {
+              "location": "LoginSteps.petco_page_is_opened()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1408719224,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Go to Account and Click signin button",
+            "match": {
+              "location": "LoginSteps.go_to_Account_and_click_signin_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 176999787,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Login page is displayed",
+            "match": {
+              "location": "LoginSteps.login_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 219384862,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "enter the \"fakeemail@gmail.com\" and \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "fakeemail@gmail.com",
+                  "offset": 11
+                },
+                {
+                  "val": "admin123",
+                  "offset": 37
+                }
+              ],
+              "location": "LoginSteps.enter_the_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 836644273,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click the login",
+            "match": {
+              "location": "LoginSteps.click_the_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 610150704,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Take screenshots and quit browser",
+            "match": {
+              "location": "LoginSteps.take_screenshots_and_quit_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@tc_01_login"
+          },
+          {
+            "line": 1,
+            "name": "@PetCo_Project"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "validate the login functionality",
+        "description": "",
+        "id": "petco-website;validate-the-login-functionality;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2164085148,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch the browser and enter the url",
+            "match": {
+              "location": "LoginSteps.launch_the_browser_and_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4886973,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Petco page is opened",
+            "match": {
+              "location": "LoginSteps.petco_page_is_opened()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1707416973,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Go to Account and Click signin button",
+            "match": {
+              "location": "LoginSteps.go_to_Account_and_click_signin_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 87645423,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Login page is displayed",
+            "match": {
+              "location": "LoginSteps.login_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 651945873,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "enter the \"nthanonklin@gmail.com\" and \"Barkbark99\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nthanonklin@gmail.com",
+                  "offset": 11
+                },
+                {
+                  "val": "Barkbark99",
+                  "offset": 39
+                }
+              ],
+              "location": "LoginSteps.enter_the_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2227216359,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click the login",
+            "match": {
+              "location": "LoginSteps.click_the_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 627336462,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Take screenshots and quit browser",
+            "match": {
+              "location": "LoginSteps.take_screenshots_and_quit_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@tc_01_login"
+          },
+          {
+            "line": 1,
+            "name": "@PetCo_Project"
+          }
+        ]
+      }
+    ],
+    "name": "Petco Website",
+    "description": "",
+    "id": "petco-website",
+    "keyword": "Feature",
+    "uri": "/Users/nthanonk/eclipse-workspace/PetcoProject/src/test/resources/Features/Testcase.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@PetCo_Project"
+      }
+    ]
+  }
+]
