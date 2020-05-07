@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3209340247,
+              "duration": 3738899311,
               "status": "passed"
             },
             "line": 7,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 24925104,
+              "duration": 21376660,
               "status": "passed"
             },
             "line": 8,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 1408719224,
+              "duration": 1798470179,
               "status": "passed"
             },
             "line": 9,
@@ -48,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 176999787,
+              "duration": 54165242,
               "status": "passed"
             },
             "line": 10,
@@ -60,7 +60,7 @@
           },
           {
             "result": {
-              "duration": 219384862,
+              "duration": 325600773,
               "status": "passed"
             },
             "line": 11,
@@ -86,7 +86,7 @@
           },
           {
             "result": {
-              "duration": 836644273,
+              "duration": 1039583731,
               "status": "passed"
             },
             "line": 12,
@@ -98,7 +98,7 @@
           },
           {
             "result": {
-              "duration": 610150704,
+              "duration": 684785784,
               "status": "passed"
             },
             "line": 13,
@@ -130,7 +130,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2164085148,
+              "duration": 2398625686,
               "status": "passed"
             },
             "line": 7,
@@ -142,7 +142,7 @@
           },
           {
             "result": {
-              "duration": 4886973,
+              "duration": 25381567,
               "status": "passed"
             },
             "line": 8,
@@ -154,7 +154,7 @@
           },
           {
             "result": {
-              "duration": 1707416973,
+              "duration": 1388499380,
               "status": "passed"
             },
             "line": 9,
@@ -166,7 +166,7 @@
           },
           {
             "result": {
-              "duration": 87645423,
+              "duration": 16108390,
               "status": "passed"
             },
             "line": 10,
@@ -178,7 +178,7 @@
           },
           {
             "result": {
-              "duration": 651945873,
+              "duration": 964232450,
               "status": "passed"
             },
             "line": 11,
@@ -204,7 +204,7 @@
           },
           {
             "result": {
-              "duration": 2227216359,
+              "duration": 224115931,
               "status": "passed"
             },
             "line": 12,
@@ -216,7 +216,7 @@
           },
           {
             "result": {
-              "duration": 627336462,
+              "duration": 679895399,
               "status": "passed"
             },
             "line": 13,
@@ -243,7 +243,7 @@
     "description": "",
     "id": "petco-website",
     "keyword": "Feature",
-    "uri": "/Users/nthanonk/eclipse-workspace/PetcoProject/src/test/resources/Features/Testcase.feature",
+    "uri": "/Users/nthanonk/git/Selenium/Training/PetcoProject/src/test/resources/Features/Testcase.feature",
     "tags": [
       {
         "line": 1,

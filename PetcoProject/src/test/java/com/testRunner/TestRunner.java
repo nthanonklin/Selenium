@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions
 (
 	
-features = "/Users/nthanonk/eclipse-workspace/PetcoProject/src/test/resources/Features/Testcase.feature",
+features = "/Users/nthanonk/git/Selenium/Training/PetcoProject/src/test/resources/Features/Testcase.feature",
 glue = {"com.stepdefinition"},	        
 plugin = {"pretty", "html:src/test/resources/Reports/cucumber-html-report","json:src/test/resources/Reports/cucumber-html-report/jsonreport",
 "com.cucumber.listener.ExtentCucumberFormatter:src/test/resources/Reports/Extentreports/Extentreport.html"}
@@ -21,12 +21,11 @@ plugin = {"pretty", "html:src/test/resources/Reports/cucumber-html-report","json
 public class TestRunner {
 	
 	@AfterClass
-  public static void extendReport()
-{
-    Reporter.loadXMLConfig("extent-config.xml");
-    Reporter.setSystemInfo("user", System.getProperty("user.name"));
-    Reporter.setSystemInfo("os", "Mac");
-    Reporter.setTestRunnerOutput("Sample test runner output message");
-}
-
+	public static void extendReport()
+	{
+	    Reporter.loadXMLConfig("extent-config.xml");
+	    Reporter.setSystemInfo("user", System.getProperty("user.name"));
+	    Reporter.setSystemInfo("os", "Mac");
+	    Reporter.setTestRunnerOutput("Sample test runner output message");
+	}
 }

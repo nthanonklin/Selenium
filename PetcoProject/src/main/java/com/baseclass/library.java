@@ -21,7 +21,7 @@ public class library {
 	public static final  Logger logger = LogManager.getLogger(library.class.getName());
 	
 	public void launchApplication() throws IOException {
-		FileInputStream file =  new FileInputStream("/Users/nthanonk/eclipse-workspace/PetcoProject/src/test/resources/configurationproperties/config.properties");
+		FileInputStream file =  new FileInputStream("/Users/nthanonk/git/Selenium/Training/PetcoProject/src/test/resources/configurationproperties/config.properties");
 		prop = new Properties();
 		prop.load(file);
 		String Browser = prop.getProperty("browser");
@@ -42,6 +42,7 @@ public class library {
 			driver.manage().timeouts().implicitlyWait(15,TimeUnit.SECONDS);
 			driver.get(prop.getProperty("url"));
 			logger.info("url is entered in the browser");
+			
 		}catch (WebDriverException a) {
 			System.out.println("Browser cannot be launched");		
 		}
@@ -52,14 +53,16 @@ public class library {
 		logger.info("Window is closed");
 		driver.close();
 	}
+	
 	public void screenShot() throws IOException {
+		
 		logger.info("taking screenshot");
 		TakesScreenshot ts = (TakesScreenshot)driver;
 		String screenshotpath = System.getProperty("user.dir")+"/Screenshots/Pet" + System.currentTimeMillis()+".png";
 		System.out.println(screenshotpath);
 		File source = ts.getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(source, new File(screenshotpath));
-		}
+	}
 	
 	public String getTitle() {
 		String Title = driver.getTitle();

@@ -54,9 +54,7 @@ public class LoginSteps extends library{
 	
 	@Then("^Take screenshots and quit browser$")
 	public void take_screenshots_and_quit_browser() throws IOException  {
-		screenShot();
-		//quit();
-	    
+		screenShot();	    
 	}
 
 }

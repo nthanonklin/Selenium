@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("/Users/nthanonk/eclipse-workspace/PetcoProject/src/test/resources/Features/Testcase.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("/Users/nthanonk/git/Selenium/Training/PetcoProject/src/test/resources/Features/Testcase.feature");
 formatter.feature({
   "line": 2,
   "name": "Petco Website",
@@ -155,28 +155,28 @@ formatter.match({
   "location": "LoginSteps.launch_the_browser_and_enter_the_url()"
 });
 formatter.result({
-  "duration": 3209340247,
+  "duration": 3738899311,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.petco_page_is_opened()"
 });
 formatter.result({
-  "duration": 24925104,
+  "duration": 21376660,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.go_to_Account_and_click_signin_button()"
 });
 formatter.result({
-  "duration": 1408719224,
+  "duration": 1798470179,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.login_page_is_displayed()"
 });
 formatter.result({
-  "duration": 176999787,
+  "duration": 54165242,
   "status": "passed"
 });
 formatter.match({
@@ -193,21 +193,21 @@ formatter.match({
   "location": "LoginSteps.enter_the_and(String,String)"
 });
 formatter.result({
-  "duration": 219384862,
+  "duration": 325600773,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.click_the_login()"
 });
 formatter.result({
-  "duration": 836644273,
+  "duration": 1039583731,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.take_screenshots_and_quit_browser()"
 });
 formatter.result({
-  "duration": 610150704,
+  "duration": 684785784,
   "status": "passed"
 });
 formatter.scenario({
@@ -271,28 +271,28 @@ formatter.match({
   "location": "LoginSteps.launch_the_browser_and_enter_the_url()"
 });
 formatter.result({
-  "duration": 2164085148,
+  "duration": 2398625686,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.petco_page_is_opened()"
 });
 formatter.result({
-  "duration": 4886973,
+  "duration": 25381567,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.go_to_Account_and_click_signin_button()"
 });
 formatter.result({
-  "duration": 1707416973,
+  "duration": 1388499380,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.login_page_is_displayed()"
 });
 formatter.result({
-  "duration": 87645423,
+  "duration": 16108390,
   "status": "passed"
 });
 formatter.match({
@@ -309,21 +309,21 @@ formatter.match({
   "location": "LoginSteps.enter_the_and(String,String)"
 });
 formatter.result({
-  "duration": 651945873,
+  "duration": 964232450,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.click_the_login()"
 });
 formatter.result({
-  "duration": 2227216359,
+  "duration": 224115931,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.take_screenshots_and_quit_browser()"
 });
 formatter.result({
-  "duration": 627336462,
+  "duration": 679895399,
   "status": "passed"
 });
 });
