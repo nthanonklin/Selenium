@@ -10,16 +10,13 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions
 (
-	
-features = "/Users/nthanonk/git/Selenium/Training/PetcoProject/src/test/resources/Features/Testcase.feature",
-glue = {"com.stepdefinition"},	        
-plugin = {"pretty", "html:src/test/resources/Reports/cucumber-html-report","json:src/test/resources/Reports/cucumber-html-report/jsonreport",
-"com.cucumber.listener.ExtentCucumberFormatter:src/test/resources/Reports/Extentreports/Extentreport.html"}
-	        
+	features = "/Users/nthanonk/git/Selenium/Training/PetcoProject/src/test/resources/Features/Testcase.feature",
+	glue = {"com.stepdefinition"},	        
+	plugin = {"pretty", "html:src/test/resources/Reports/cucumber-html-report","json:src/test/resources/Reports/cucumber-html-report/jsonreport",
+	"com.cucumber.listener.ExtentCucumberFormatter:src/test/resources/Reports/Extentreports/Extentreport.html"}		        
 )
 
 public class TestRunner {
-	
 	@AfterClass
 	public static void extendReport()
 	{
