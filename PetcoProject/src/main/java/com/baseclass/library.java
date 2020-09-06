@@ -65,6 +65,7 @@ public class library {
 	}
 	
 	public String getTitle() {
+		
 		String Title = driver.getTitle();
 		return Title;
 	}
